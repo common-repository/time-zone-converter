@@ -1,0 +1,81 @@
+.tzc-input {
+	width: 252px;
+}
+
+#tzc-admin.wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+#tzc-admin .tzc-settings {
+	border-top: none;
+	width: 500px;
+}
+
+#tzc-admin .tzc-preview {
+	padding-left: 20px;
+	width: 100%;
+}
+
+#tzc-admin .tzc-input-small {
+	width: 200px;
+}
+
+#tzc-admin .tzc-settings-section {
+	display: flex;
+	flex-direction: row;
+	margin: 2px 0;
+	align-items: center;
+	background-color: #f0f0f0;
+	height: 40px;
+	padding-left: 10px;
+}
+
+#tzc-admin .tzc-settings-section p {
+	color: #aaa;
+	padding-left: 5px;
+}
+
+#tzc-admin .tzc-settings-left {
+	width: 170px;
+}
+
+#tzc-admin .tzc-settings-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: flex-start;
+	width: 450px;
+}
+
+#tzc-admin .tzc-settings-right .wp-picker-container {
+	margin-top: 6px;
+}
+
+#tzc-admin .tzc-settings-right label {
+	margin-right: 12px;
+}
+
+#tzc-admin .tzc-height-60 {
+	height: 60px;
+}
+
+@media only screen and (max-width: 1400px) {
+	#tzc-admin.wrap {
+		flex-direction: column;
+	}
+
+	#tzc-admin .tzc-settings {
+		width: 100%;
+	}
+	#tzc-admin .tzc-settings-right {
+		width: 100%;
+	}
+
+	#tzc-admin .tzc-preview {
+		padding-left: 0;
+	}
+
+}

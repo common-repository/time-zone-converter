@@ -1,0 +1,160 @@
+#tzc-layout1 {
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	width: 100%;
+	max-width: 450px;
+	float: none;
+}
+
+#tzc-layout1 .tzc-header1 {
+	padding: 5px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#tzc-layout1 table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+#tzc-layout1 .tzc-row {
+	width: 100%;
+}
+
+#tzc-layout1 .tzc-contents {
+	padding: 1px 15px;
+}
+
+#tzc-layout1 .tzc-row:nth-child(1) {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#tzc-layout1 .tzc-row:nth-child(2) {
+	margin-top: 10px;
+	padding-right: 11px;
+}
+
+#tzc-layout1 .tzc-row:nth-child(3), #tzc-layout1 .tzc-row:nth-child(7), #tzc-layout1 .tzc-row:nth-child(5) {
+	margin-bottom: 5px;
+}
+
+#tzc-layout1 .tzc-button {
+	padding: 5px 10px;
+}
+
+#tzc-layout1 .tzc-spacer-10 {
+	padding-top: 10px;
+}
+
+#tzc-layout1 .tzc-success-message {
+	font-size: 14px;
+}
+
+#tzc-layout1 .tzc-error-message {
+	font-size: 14px;
+	color: red;
+}
+
+#tzc-layout1 .tzc-message-container {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	color: #000;
+	border-radius: 5px;
+}
+
+#tzc-layout1 .tzc-error {
+	width: 200px;
+	color: #ff0000;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+#tzc-layout1 .tzc-success {
+	color: #00AA00;
+	padding: 5px;
+	border: 1px solid #00AA00;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#tzc-layout1 .tzc-hide {
+	display: none;
+}
+#tzc-layout1 .tzc-clear {
+	clear: both;
+}
+
+#tzc-layout1 .tzc-from, #tzc-layout1 .tzc-to {
+	font-size: 14px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding: 4px 5px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+
+#tzc-layout1 .tzc-hours, #tzc-layout1 .tzc-minutes, #tzc-layout1 .tzc-ampm {
+	width: 65px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right: 2px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding: 4px 5px;
+	margin-top: 5px;
+}
+
+#tzc-layout1 .tzc-date {
+	font-size: 14px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding: 2px 0 2px 8px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	width: 145px;
+	margin-top: 5px;
+}
+
+#tzc-layout1 .datetime-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#tzc-layout1 .tzc-ampm {
+	width: 100px;
+}
+
+#tzc-layout1 .ui-datepicker-trigger {
+	width: 27px;
+	margin-top: 5px;
+}
+
+#tzc-layout1 .tzc-button {
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	margin: 5px 5px 10px 1px;
+	padding: 5px 10px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#tzc-layout1 .tzc-24-hour-options {
+	display: none;
+}
+
+#tzc-layout1 .tzc-message {
+	font-size: 14px;
+}
